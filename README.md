@@ -1,7 +1,14 @@
 Jelly Load is touted as the most inconvenient way of loading data into your 8 bit computer.
+The concept is the collaborative creation of Dave Curran (Tynemouth Software) and Rod Hull (The Future Was 8 bit).
+
+My rough / ready understanding of how it works:
 Data and clock signals are encoded into a video stream as a matrix of black or white areas.
 The receiving interface senses the optical channel and converts the result into an 8 bit data word
 for interpretation by the target computer.
+
+Take a look here:
+https://www.tfw8b.com/introducing-jelly-load/
+for a historical account.
 
 This repository is my own effort at creating a JellyLoad receive interface for Commodore computer user port.
 
@@ -29,5 +36,8 @@ component placement data and assembly drawing for the Signal Interface board and
 
 JLC seemed fine with the Gerbers but don't generally hold stock of trimpots or LDRs, so I'm assuming that I'll need to get a knife and fork
 onto this to assemble it myself.
+
+A selection of JellyLoad encoded videos can be found here:
+https://www.youtube.com/playlist?list=PLbE6E7xnjkkJwXpoj5DF8uXBsocBH2ZH-
 
 Well, good luck!
