@@ -40,10 +40,11 @@ Solder blob config pads route the CLK signal to the user port pin required by th
 This differs between PET, VIC20 and C64. Board profile is configured to fit inside a C64 cartridge case.
 Case mechanics are shown on layer User.Eco1.  PDF of machining dimensions is made available for convenience.
 
-* Optical Array Mechanics:
+* Optical Housing
 ![Optical-Housing](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optical-Housing-Illustration.jpg)
 The sensor array is fitted with the Optical Housing, as mentioned above, for the purpose of reducing ambient light interference and to help align with the optical channel.
 
+* Monitor Guide
 ![Monitor-Guide](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Monitor-Guide-Illustration.jpg)
 The Monitor Guide is attached to the receiving monitor screen, aligned with the appropriately scaled JellyLoad optical channel.
 FreeCAD source is available for both these parts.  STL exports are also available for direct use in additive manufacturing processes.
