@@ -20,13 +20,13 @@ KiCAD source is available for schematic and PCB of each board.
 FreeCAD source is available for the mechanical elements (Optical Housing and Monitor Guide).
 
 * Sensor array board:
-https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_LDR-Sensor-Array/JL_LDR-Sensor-Array.jpg
+![Sensor-array-board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_LDR-Sensor-Array/JL_LDR-Sensor-Array.jpg)
 LDR (photoresistors) are arranged in the required matrix, connected from VCC to appropriate 14Way IDC header pins.
 Sensor array board is fitted with Optical Housing mechanics to reduce ambient light interference and facilitate alignment on the receiving monitor.
 Mechanical data is detailed later in this document.
 
 * Signal Interface board:
-https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Signal-Interface/JL_Signal-Interface.jpg
+![Signal-Interface-Board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Signal-Interface/JL_Signal-Interface.jpg)
 Sensor array signals are shunted by trim-pot resistors at the input to Schmitt inverters.
 Switching threshold must be calibrated against known white-level with sensor array in place on receiving screen.
 The appalling batch variability of photoresistors, (roughly 60% nominal resistance value at same light level),
@@ -34,17 +34,17 @@ required select-on-test trim-pots for each sensor to set switching thresholds at
 Kept surface mount components good and chunky (1206 and SOIC) for easier hand-assembly.
 
 * Target Interface board:
-https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JellyLoad_Target-Interface_V2-0/JellyLoad_Target-Interface_V2-0.jpg
+![Target-Interface-Board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JellyLoad_Target-Interface_V2-0/JellyLoad_Target-Interface_V2-0.jpg)
 Mostly just a connector interface to connect the 14Way IDC pins and route logic signals to User Port connector.
 Solder blob config pads route the CLK signal to the user port pin required by the target computer.
 This differs between PET, VIC20 and C64. Board profile is configured to fit inside a C64 cartridge case.
 Case mechanics are shown on layer User.Eco1.  PDF of machining dimensions is made available for convenience.
 
 * Optical Array Mechanics:
-https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optical-Housing-Illustration.jpg
-
-https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Monitor-Guide-Illustration.jpg
+![Optical-Housing](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optical-Housing-Illustration.jpg)
 The sensor array is fitted with the Optical Housing, as mentioned above, for the purpose of reducing ambient light interference and to help align with the optical channel.
+
+![Monitor-Guide](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Monitor-Guide-Illustration.jpg)
 The Monitor Guide is attached to the receiving monitor screen, aligned with the appropriately scaled JellyLoad optical channel.
 FreeCAD source is available for both these parts.  STL exports are also available for direct use in additive manufacturing processes.
 
