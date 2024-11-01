@@ -1,4 +1,4 @@
-Jelly Load is touted as the most inconvenient way of loading data into your 8 bit computer.
+Jelly Load is touted as one of the most inconvenient ways of loading data into your 8 bit computer.
 The concept is the collaborative creation of Dave Curran (Tynemouth Software) and Rod Hull (The Future Was 8 bit).
 
 ![Jelly-Load_Video-Excerpt](https://github.com/user-attachments/assets/b5859f96-f9bb-4654-9981-37c79c16dd64)
@@ -11,6 +11,10 @@ for interpretation by the target computer upon receiving valid clock edge.
 Take a look here:
 https://www.tfw8b.com/introducing-jelly-load/
 for a historical account.
+
+This link points to a Zip file with the loader binaries for VIC20:
+https://www.tfw8b.com/wp-content/uploads/2024/09/JellyLoad-VIC20-240908.zip
+(different ones depending upon your RAM configuration)
 
 This repository is my own effort at creating a JellyLoad receive interface for Commodore computer user port.
 
