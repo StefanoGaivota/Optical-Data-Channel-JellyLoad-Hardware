@@ -22,11 +22,12 @@ It comprises two separate boards which connect to each other via a 14way IDC cab
 KiCAD source is available for schematic and PCB of each board.<br>
 FreeCAD source is available for the mechanical elements (Optical Housing and Monitor Guide).<br>
 Manufacturing data generated from these sources is detailed later in this document.<br><br>
+<p><u><b>Printed Circuit Board parts</u></b></p><br>
 
 * Optical Interface board:
 ![Sensor-array-board](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JellyLoad-Combi_V2-0/JellyLoad-Combi_V2-0.jpg)
-Phototransistors are arranged in the required matrix, photocurrent converted to voltage at input of Schmitt inverter. Inverter outputs are routed to 14 Way IDC.
-Clock signal sensor is indicated by and LED underneath the IDC connector.
+Phototransistors are arranged in the required matrix, photocurrent converted to voltage at input of Schmitt inverter. Inverter outputs are routed to 14 Way IDC.<br>
+Clock signal is indicated by an LED for visual feedback of correct operation.
 <br><br>
 
 * Target Interface board:
@@ -37,6 +38,8 @@ This differs between PET, VIC20 and C64. Blob your required option.<br>
 Board profile is configured to fit inside a C64 cartridge case.<br>
 Case mechanics are shown on layer User.Eco1.<br>
 PDF of machining dimensions is made available for convenience.<br><br>
+<br>
+<p><u><b>Mechanical components</u></b></p><br>
 
 * Optical Housing:
  
@@ -52,7 +55,7 @@ The housing can be secured to the board with adhesive (e.g. cyanoacrylate) or ca
 
 The Monitor Guide is attached to the receiving monitor screen, aligned with the appropriately scaled JellyLoad optical channel.<br><br>
 
-* Manufacturing Data:<br>
+<p><u><b>Manufacturing Data</u></b></p><br>
 
 Manufacturing Data in each board folder is the most recent output from KiCAD.<br>
 Bill-Of-Materials (BOM) with Mouser stock codes. BOM and pick/place files for use with JLC.<br>
