@@ -18,52 +18,51 @@ https://www.tfw8b.com/wp-content/uploads/2024/09/JellyLoad-VIC20-240908.zip<br>
 
 This repository is my own effort at creating a JellyLoad receive interface for Commodore computer user port.
 
-It comprises three separate boards for reasons of modularity and easier calibration. (Two boards if you go for the phototransistor combi variant).
-Boards connect to each other via a 14way IDC cable assembly.
-KiCAD source is available for schematic and PCB of each board.
-FreeCAD source is available for the mechanical elements (Optical Housing and Monitor Guide).
+It comprises two separate boards which connect to each other via a 14way IDC cable assembly along with associated opto-mechanical components.<br>
+KiCAD source is available for schematic and PCB of each board.<br>
+FreeCAD source is available for the mechanical elements (Optical Housing and Monitor Guide).<br>
+Manufacturing data generated from these sources is detailed later in this document.<br><br>
 
-* Sensor array board:
-![Sensor-array-board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_LDR-Sensor-Array/JL_LDR-Sensor-Array.jpg)
-LDR (photoresistors or phototransistors) are arranged in the required matrix, connected from VCC to appropriate 14Way IDC header pins.
-Sensor array board is fitted with Optical Housing mechanics to reduce ambient light interference and facilitate alignment on the receiving monitor.
-Mechanical data is detailed later in this document.
-
-* Signal Interface board:
-![Signal-Interface-Board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Signal-Interface/JL_Signal-Interface.jpg)
-Sensor array signals are shunted by trim-pot resistors at the input to Schmitt inverters.
-Switching threshold must be calibrated against known white-level with sensor array in place on receiving screen.
-The appalling batch variability of photoresistors, (roughly 60% nominal resistance value at same light level),
-required select-on-test trim-pots for each sensor to set switching thresholds at the Schmitt inverter input.
-Kept surface mount components good and chunky (1206 and SOIC) for easier hand-assembly.<br>
-This board is not needed with the phototransistor combi variant.
+* Optical Interface board:
+![Sensor-array-board](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JellyLoad-Combi_V2-0/JellyLoad-Combi_V2-0.jpg)
+Phototransistors are arranged in the required matrix, photocurrent converted to voltage at input of Schmitt inverter. Inverter outputs are routed to 14 Way IDC.
+Clock signal sensor is indicated by and LED underneath the IDC connector.
+<br><br>
 
 * Target Interface board:
 ![Target-Interface-Board](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JellyLoad_Target-Interface_V2-0/JellyLoad_Target-Interface_V2-0.jpg)
-Mostly just a connector interface to connect the 14Way IDC pins and route logic signals to User Port connector.
-Solder blob config pads route the CLK signal to the user port pin required by the target computer.
-This differs between PET, VIC20 and C64. Board profile is configured to fit inside a C64 cartridge case.
-Case mechanics are shown on layer User.Eco1.  PDF of machining dimensions is made available for convenience.
+Target interface connects the 14Way IDC pins and routes logic signals to target computer User Port connector.<br>
+Solder blob config pads route the CLK signal to the user port pin required by the target computer.<br>
+This differs between PET, VIC20 and C64. Blob your required option.<br>
+Board profile is configured to fit inside a C64 cartridge case.<br>
+Case mechanics are shown on layer User.Eco1.<br>
+PDF of machining dimensions is made available for convenience.<br><br>
 
 * Optical Housing:
  
 ![Optical-Housing](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optical-Housing-Illustration.jpg)
 
-The sensor array is fitted with the Optical Housing, as mentioned above, for the purpose of reducing ambient light interference and to help align with the optical channel. Optical aperture converters (glass balls) are accommodated in this section for the phototransistor combi variant.
+The Optical Interface board is fitted with this Optical Housing for the purpose of reducing ambient light interference and to help align with the optical channel.<br>
+Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory along with an illustration of the optical aperture translation.<br>
+The housing can be secured to the board with adhesive (e.g. cyanoacrylate) or careful heat-staking of the retaining lugs.<br><br>
 
 * Monitor Guide:
 
 ![Monitor-Guide](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Monitor-Guide-Illustration.jpg)
 
-The Monitor Guide is attached to the receiving monitor screen, aligned with the appropriately scaled JellyLoad optical channel.
-FreeCAD source is available for both these parts.  STL exports are also available for direct use in additive manufacturing processes.
+The Monitor Guide is attached to the receiving monitor screen, aligned with the appropriately scaled JellyLoad optical channel.<br><br>
 
-Manufacturing Data in each board folder is most recent output from KiCAD and includes Bill-Of-Materials with Mouser stock codes, Gerber+Drill zip for PCB manufacture, component placement data and assembly drawing for the Signal Interface board and 3D view of sensor array board to show component arrangement.
+* Manufacturing Data:<br>
 
-JLC seemed fine with the Gerbers but don't generally hold stock of trimpots or LDRs, so I'm assuming that I'll need to get a knife and fork
-onto this to assemble it myself.
+Manufacturing Data in each board folder is the most recent output from KiCAD.<br>
+Bill-Of-Materials (BOM) with Mouser stock codes. BOM and pick/place files for use with JLC.<br>
+Gerber+Drill zip for PCB manufacture.<br>
 
-A selection of JellyLoad encoded videos can be found here:
+Assembly tooling holes are 1.152mm top-left and bottom right of layout. Specify "Tooling holes added by customer" at assembly stage.<br><br>
+
+STL exports of Optical Housing and Monitor Guide can be used with most additive manufacturing processes.<br><br>
+
+A selection of JellyLoad encoded videos can be found here:<br>
 https://www.youtube.com/playlist?list=PLbE6E7xnjkkJwXpoj5DF8uXBsocBH2ZH-
 
 Well, good luck!
