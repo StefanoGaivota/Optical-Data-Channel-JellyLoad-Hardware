@@ -65,7 +65,15 @@ Assembly tooling holes are 1.152mm top-left and bottom right of layout. Specify 
 
 STL exports of Optical Housing and Monitor Guide can be used with most additive manufacturing processes.<br><br>
 
+Once assembled, it should all look something like this:<br>
+
+<img src="https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL-V2-0-Hardware.jpg"><br>
+
+Then it's time to connect it up and try it out.
+
 A selection of JellyLoad encoded videos can be found here:<br>
 https://www.youtube.com/playlist?list=PLbE6E7xnjkkJwXpoj5DF8uXBsocBH2ZH-
 
 Well, good luck!
+
+</body>
