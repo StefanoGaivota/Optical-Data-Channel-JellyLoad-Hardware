@@ -44,7 +44,7 @@
 		(aux_axis_origin 170 107)
 		(grid_origin 170 107)
 		(pcbplotparams
-			(layerselection 0x00010dc_ffffffff)
+			(layerselection 0x0001000_7fffffff)
 			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -68,13 +68,13 @@
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
+			(plotreference no)
+			(plotvalue no)
+			(plotfptext no)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -414,6 +414,19 @@
 				)
 			)
 		)
+		(property "DK-PN" "1727-3880-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc2e35f9-ae10-4ffd-9c6d-f50ce90112a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SOD?123F*")
 		(path "/7bdc56e6-7427-46aa-a5a0-10f121be079a")
 		(sheetname "Root")
@@ -705,6 +718,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK-PN" "490-6328-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b32f02e-1ac9-43fb-b5b1-51508d5c5116")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1162,8 +1188,21 @@
 				)
 			)
 		)
+		(property "DK-PN" "296-8234-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81e63f40-7a8d-4252-ae27-37e6c8a95f7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/e04a2911-1c30-4a77-9120-791006ced098")
+		(path "/de671c81-3452-406e-9aab-1f96405e29c4")
 		(sheetname "Root")
 		(sheetfile "JellyLoad-Combi_V2-0.kicad_sch")
 		(attr smd)
@@ -1523,6 +1562,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK-PN" "490-6328-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0146e288-7fd3-4834-bdce-86bdc7df2868")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1972,6 +2024,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac348273-3900-45cd-ac71-12a9038c82b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK-PN" "2987-CH87142V201-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16d71bb-8176-4147-a99c-6557226e4773")
 			(effects
 				(font
 					(size 1 1)
@@ -3241,8 +3306,21 @@
 				)
 			)
 		)
+		(property "DK-PN" "296-8234-1-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5bce127d-d7db-49ea-861f-9970eb7bb0fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/91689eea-c63c-4a1b-a27d-24f1bd03b42c")
+		(path "/bd27b06d-88f9-4d5e-a1a4-ee423818e598")
 		(sheetname "Root")
 		(sheetfile "JellyLoad-Combi_V2-0.kicad_sch")
 		(attr smd)
@@ -3612,6 +3690,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de113e6c-5cb1-4005-ac33-684f1db98ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DK-PN" "732-4978-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22f26f84-c03a-486d-9c16-9a63043eea8d")
 			(effects
 				(font
 					(size 1 1)
@@ -4709,7 +4800,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4759,6 +4850,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09918578-d97c-4a12-a601-ce79adfbbc7f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4922,7 +5027,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4972,6 +5077,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "651916c0-9d6c-4ba4-9fe7-ac772e6a640a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5135,7 +5254,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5185,6 +5304,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f8716b4-b9ea-45d2-9c88-91f46575a41c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5348,7 +5481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5398,6 +5531,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed3ae612-b4c7-4181-ad24-a5bcfb9525bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5561,7 +5708,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5611,6 +5758,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "49462c7d-e0a1-4c8d-96e2-78584ae7e369")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5774,7 +5935,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5824,6 +5985,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f0e23bf-dc1a-450e-aa44-57c8db6d8405")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5987,7 +6162,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6037,6 +6212,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2490565f-9484-41db-88ad-c1022f107355")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6200,7 +6389,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6250,6 +6439,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2f0b94c-7aa5-433e-8e2d-6dd405b2f82f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6413,7 +6616,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SFH3710"
+		(property "Value" "SFH3710-4"
 			(at 0 -1.8 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6463,6 +6666,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DK-PN" "475-SFH3710-3/4-ZCT-ND"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6dab70a0-71df-4878-b697-887185f9dbac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
