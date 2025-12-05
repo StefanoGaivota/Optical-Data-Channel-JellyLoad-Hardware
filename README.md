@@ -57,11 +57,12 @@ The Monitor Guide is attached to the receiving monitor screen, aligned with the 
 
 <p><u><b>Manufacturing Data</u></b></p><br>
 
-Manufacturing Data in each board folder is the most recent output from KiCAD.<br>
-Bill-Of-Materials (BOM) with Mouser stock codes. BOM and pick/place files for use with JLC.<br>
+Manufacturing Data for production of Printed Circuit Boards and 3D printed mechanics is available in the "Manufacturing Data" folder.<br>
+
+Bill-Of-Materials (BOM) with Mouser stock codes. BOM and pick/place files for use with JLC (A cheap and cheerful PCB Assembly company)<br>
 Gerber+Drill zip for PCB manufacture.<br>
 
-Assembly tooling holes are 1.152mm top-left and bottom right of layout. Specify "Tooling holes added by customer" at assembly stage.<br><br>
+Assembly tooling holes are 1.152mm top-left and bottom right of layout. With JLC, specify "Tooling holes added by customer" at assembly stage.<br><br>
 
 STL exports of Optical Housing and Monitor Guide can be used with most additive manufacturing processes.<br><br>
 
