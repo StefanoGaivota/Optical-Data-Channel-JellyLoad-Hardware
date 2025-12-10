@@ -1,4 +1,4 @@
-Jelly Load is touted as one of the most inconvenient ways of loading data into your 8 bit computer.<br>
+Jelly Load is touted as one of the most inconvenient (but also the most fun) ways of loading data into your 8 bit computer.<br>
 The concept is the collaborative creation of Dave Curran (Tynemouth Software) and Rod Hull (The Future Was 8 bit).
 
 ![Jelly-Load_Video-Excerpt](https://github.com/user-attachments/assets/b5859f96-f9bb-4654-9981-37c79c16dd64)
