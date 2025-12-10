@@ -50,9 +50,9 @@ The Optical Interface board is fitted with this Optical Housing for the purpose 
 Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory. Basically 6.0mm glass balls of good optical clarity.<br>
 
 ![Optics-Calculations](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optics-Calcs-Geometry.jpg)
-
 <br>
-The housing can be secured to the board with adhesive of choice, (double sided sticky tape, cyanoacrylate etc) or careful heat-staking of the retaining lugs.<br><br>
+The sensor array will work adequately without the aperture adaptors but sensitivity will be reduced so you will need to use higher monitor brightness for reliable transmission. <br>
+The housing can be secured to the sensor board with adhesive of choice, (double sided sticky tape, cyanoacrylate etc) or careful heat-staking of the retaining lugs.<br><br>
 
 * Monitor Guide:
 
@@ -75,8 +75,10 @@ Once assembled, it should all look something like this:<br>
 
 <img src="https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL-V2-0-Hardware.jpg"><br>
 
-Then it's time to connect it up and try it out.
-
+Then it's time to connect it up and try it out.<br>
+Adjust monitor brightness to give reliable transition of CLOCK LED when presented with light or dark segments at the monitor.<br>
+A usable Paint application is your friend here!
+<br><br>
 A selection of JellyLoad encoded videos can be found here:<br>
 https://www.youtube.com/playlist?list=PLbE6E7xnjkkJwXpoj5DF8uXBsocBH2ZH-
 
