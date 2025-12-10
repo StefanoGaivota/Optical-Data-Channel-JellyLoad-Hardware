@@ -27,7 +27,8 @@ Manufacturing data generated from these sources is detailed later in this docume
 * Optical Interface board:
 ![Sensor-array-board](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JellyLoad-Combi_V2-0/JellyLoad-Combi_V2-0.jpg)
 Phototransistors are arranged in the required matrix, photocurrent converted to voltage at input of Schmitt inverter. Inverter outputs are routed to 14 Way IDC.<br>
-Clock signal is indicated by an LED for visual feedback of correct operation.
+Clock signal is indicated by an LED for visual feedback of correct operation.<br>
+Originally developed to use the OSRAM SFH3710 phototransistor, this seems to be superceded by the SFH3716 (as of December 2025).  Should be a drop-in replacement but YMMV.
 <br><br>
 
 * Target Interface board:
@@ -46,8 +47,12 @@ PDF of machining dimensions is made available for convenience.<br><br>
 ![Optical-Housing](https://github.com/StefanoGaivota/JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optical-Housing-Illustration.jpg)
 
 The Optical Interface board is fitted with this Optical Housing for the purpose of reducing ambient light interference and to help align with the optical channel.<br>
-Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory along with an illustration of the optical aperture translation.<br>
-The housing can be secured to the board with adhesive (e.g. cyanoacrylate) or careful heat-staking of the retaining lugs.<br><br>
+Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory. Basically 6.0mm glass balls of good optical clarity.<br>
+
+![Optics-Calculations](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optics-Calcs-Geometry.jpg)
+
+<br>
+The housing can be secured to the board with adhesive of choice, (double sided sticky tape, cyanoacrylate etc) or careful heat-staking of the retaining lugs.<br><br>
 
 * Monitor Guide:
 
