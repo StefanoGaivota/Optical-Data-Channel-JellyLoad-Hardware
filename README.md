@@ -64,7 +64,7 @@ The Monitor Guide is attached to the receiving monitor screen, aligned with the 
 
 Manufacturing Data for production of Printed Circuit Boards and 3D printed mechanics is available in the "Manufacturing Data" folder.<br>
 
-Bill-Of-Materials (BOM) with Mouser stock codes. BOM and pick/place files for use with JLC (A cheap and cheerful PCB Assembly company)<br>
+Bill-Of-Materials (BOM) with Digikey stock codes. BOM and pick/place files for use with JLC (A cheap and cheerful PCB Assembly company)<br>
 Gerber+Drill zip for PCB manufacture.<br>
 
 Assembly tooling holes are 1.152mm top-left and bottom right of layout. With JLC, specify "Tooling holes added by customer" at assembly stage.<br><br>
