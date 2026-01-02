@@ -1,11 +1,11 @@
-Jelly Load is touted as one of the most inconvenient (but also the most fun) ways of loading data into your 8 bit computer.<br>
+Jelly Load is touted as one of the most inconvenient (but also most fun) ways of loading data into your 8 bit computer.<br>
 The concept is the collaborative creation of Dave Curran (Tynemouth Software) and Rod Hull (The Future Was 8 bit).
 
 ![Jelly-Load_Video-Excerpt](https://github.com/user-attachments/assets/b5859f96-f9bb-4654-9981-37c79c16dd64)
 
-My rough / ready understanding of how it works:<br>
+<br>
 Data and clock signals are encoded into a video stream as a matrix of black or white areas.<br>
-The receiving interface senses the optical channel and converts the result into an 8 bit data word
+The receiving interface senses the optical channel bit state and converts the result into an 8 bit data word
 for interpretation by the target computer upon receiving valid clock edge.
 
 Take a look here:<br>
@@ -48,11 +48,12 @@ PDF of machining dimensions is made available for convenience.<br><br>
 
 The Optical Interface board is fitted with this Optical Housing for the purpose of reducing ambient light interference and to help align with the optical channel.<br>
 Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory. Basically 6.0mm glass balls of good optical clarity.<br>
+The graphical calculations shown here are based on a refractive index of 1.5.<br>
 
 ![Optics-Calculations](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optics-Calcs-Geometry.jpg)
 <br>
 The sensor array will work adequately without the aperture adaptors but sensitivity will be reduced so you will need to use higher monitor brightness for reliable transmission. <br>
-The housing can be secured to the sensor board with adhesive of choice, (double sided sticky tape, cyanoacrylate etc) or careful heat-staking of the retaining lugs.<br><br>
+The housing can be secured to the sensor board with your adhesive of choice, (sticky tape, cyanoacrylate, blu-tack, toffee etc) or careful heat-staking of the retaining lugs.<br><br>
 
 * Monitor Guide:
 
