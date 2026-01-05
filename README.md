@@ -48,7 +48,7 @@ PDF of machining dimensions is made available for convenience.<br><br>
 
 The Optical Interface board is fitted with this Optical Housing for the purpose of reducing ambient light interference and to help align with the optical channel.<br>
 Optical aperture adaptors (glass spheres) are accommodated in this section to match the sensor aperture to the available width. A specification for suitable spheres is available in the mechanical data directory. Basically 6.0mm glass balls of good optical clarity.<br>
-The graphical calculations shown here are based on a refractive index of 1.5.<br>
+The graphical calculations shown here are based on a refractive index of 1.4.<br>
 
 ![Optics-Calculations](https://github.com/StefanoGaivota/Optical-Data-Channel-JellyLoad-Hardware/blob/main/JL_Mechanical-Data/Optics-Calcs-Geometry.jpg)
 <br>
