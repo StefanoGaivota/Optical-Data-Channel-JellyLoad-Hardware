@@ -82,7 +82,14 @@ A usable Paint application is your friend here!
 <br><br>
 A selection of JellyLoad encoded videos can be found here:<br>
 https://www.youtube.com/playlist?list=PLbE6E7xnjkkJwXpoj5DF8uXBsocBH2ZH-
+<br><br>
 
-Well, good luck!
+Please feel free to get in touch if there's anything you'd like to ask about relating to this repository.<br>
+I'm on:<br>
+Bluesky  https://bsky.app/profile/stefanogaivota.bsky.social <br>
+and <br>
+Fedi     https://universeodon.com/@StefanoGaivota<br>
+<br>
+Best of luck!
 
 </body>
